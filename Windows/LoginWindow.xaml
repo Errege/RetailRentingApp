@@ -14,7 +14,8 @@
             <StackPanel Orientation="Horizontal"
                         Name="LoginPanel">
                 <TextBlock>Логин</TextBlock>
-                <TextBox Name="PBoxLogin"></TextBox>
+                <TextBox Name="PBoxLogin"
+                         Style="{StaticResource LoginTextBox}"></TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal"
                         Name="PasswordPanel">
